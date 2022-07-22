@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="">
-      <footer class="footer p-12 bg-base-200 text-base-content">
+    <div className="bg-base-200 ">
+      <div className="px-12 py-5">
+        <img className="logo " src="https://i.ibb.co/mDLZwWV/flogo.jpg" alt="" srcset="" />
+      </div>
+      <footer class="footer px-12 bg-base-200 text-base-content">
         <div>
           <span class="footer-title">Services</span>
           <Link to="" class="link link-hover">
@@ -48,6 +51,7 @@ const Footer = () => {
           </Link>
         </div>
       </footer>
+
       <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <div class="items-center grid-flow-col">
           <svg
@@ -66,6 +70,7 @@ const Footer = () => {
             Providing reliable tech since 2022
           </p>
         </div>
+
         <div class="md:place-self-center md:justify-self-end">
           <div class="grid grid-flow-col gap-4">
             <a href="https://twitter.com/IlhanKhondaker">
@@ -115,6 +120,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+
     </div>
   );
 };

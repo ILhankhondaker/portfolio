@@ -49,7 +49,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" class="btn btn-ghost normal-case text-xl text-white font-bold">
-          Ilhan Khondaker
+          <img className="logo" src="https://i.ibb.co/d6TSvbJ/ikl.jpg" alt="" srcset="" />
         </Link>
       </div>
       <div class="navbar-center hidden lg:flex">

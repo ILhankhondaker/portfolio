@@ -12,3 +12,8 @@
     width: 100%;
     z-index: 1 !important;
 }
+
+.logo {
+    height: 50px;
+    /* width: 150px; */
+}
